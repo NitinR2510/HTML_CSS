@@ -1,0 +1,114 @@
+header
+{
+    border: 0.2rem solid yellow;
+}
+#cover
+{
+    border: .5rem dashed black;
+    border-radius: 20rem;
+    min-width: 20px;
+}
+#logo
+{
+    width: 50%;
+    margin-left: 3rem;
+}
+header
+{
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+    background-color: yellow;
+    padding: 3rem;
+    border: .2rem orangered solid;
+    border-radius: 30px;
+}
+#famous
+{
+    
+    width: 30%;
+    min-width: 25px;
+    float: right;
+    padding: .3rem .3rem 5rem .3rem;
+    background-color: white;
+}
+#intro
+{
+    background-color: rosybrown;
+    margin-left: 1rem;
+    width: 70%;
+    border-radius: 30px; 
+    color:white;
+}
+#founder
+{
+    background-color: rosybrown;
+    border-radius: 250px;
+    margin-left: 5rem;
+    color:white;
+}
+.rotateimg20 {
+    -webkit-transform:rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+    border: .02rem black solid;
+}
+#pic
+{    
+    width: 30%;
+    min-width: 25px;
+    float: right;
+    padding: .3rem .3rem 5rem .3rem;
+    background-color: white;
+}
+.rotateimg340
+{
+    -webkit-transform:rotate(340deg);
+    -moz-transform: rotate(340deg);
+    -ms-transform: rotate(340deg);
+    -o-transform: rotate(340deg);
+    transform: rotate(340deg);
+    border: .02rem black solid;
+}
+#hunch,#hunger,#hobbit,#pinno
+{
+    width:10%;
+    min-width: 20px;
+}
+#english
+{
+    width:20%;
+    min-width: 40px;
+}
+footer
+{
+    margin-top: .5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: green;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+#read
+{
+    float: right;
+    size: 50%;
+    border-radius:30px;
+}
+#Books
+{
+    border: 2px blanchedalmond solid;
+    background-color: aquamarine;
+    text-align: center;
+    padding: .5rem;
+}
+#pen_pal
+{
+    color:red;
+}
+#reviews
+{
+    text-align: center;
+}

@@ -1,0 +1,230 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:black;
+  }
+    header {
+      text-align: center;
+      background-color: #040c0e;
+      color: white;
+      border-bottom: 5px #FEDC3D solid; 
+  }
+  header h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom: 2px #FFFFFF solid;
+    width:50%;
+    padding-bottom:1em;
+
+  }
+  
+  header p {
+    border-bottom: 2px #FFFFFF solid;
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom:1em;
+    height:50px;
+  }
+  
+  section {
+    margin: auto;
+    display:block;
+    text-align:center;
+    background-color: black;
+    width:75%;
+     min-width:500px;
+     color: #FFFFFF;
+     border-left: whitesmoke double .05rem;
+  }
+  
+  h2 {
+    border-bottom: 5px #000000 solid;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:30px;
+  }
+  
+  article {
+    background-color: #6A8A62;
+  }
+  
+  #leftP {
+    text-align:justify;
+    width:40%;
+    margin:50px;
+    padding:10px 15px 30px 15px;
+    margin-left:10%
+  }
+  
+  #rightP {
+    width:40%;
+    text-align:justify;
+    margin:50px;
+    padding:10px 15px 30px 15px;
+    margin-left:50%;
+  }
+  
+  h3 {
+      color: white;
+
+    }
+#me{
+    width: 30%;
+    min-width: 120px;
+    float: left;
+    display: block;
+    position: relative;
+    margin-left: 5em;
+    border: 2px yellow solid;
+    border-radius: 200em;
+   
+    }
+   a:hover{
+      color: red;
+      text-decoration: underline;
+  }
+  footer {
+    text-align:right;
+  
+    border-top: 5px #FEDC3D solid;
+    color: white;
+    height:10%;
+    min-height:10px;
+    max-height:50px;
+    padding:30px; 
+    margin-top:30px;
+  }
+  #visit li{
+      float:left;
+      padding-right: 2em;
+  }
+  #Learning2,#Learning1{
+    width:100%;
+    padding:1em;
+  }
+  .year{
+    border-right: .1em black solid;
+  }
+  
+  #Hobbies{
+    text-align: left;
+    padding-bottom: .3rem;
+  }
+  #back{
+    width:40%;
+    text-align:justify;
+    margin:50px;
+    padding:10px 15px 30px 15px;
+    margin-left:50%
+  }
+  #front{
+    text-align:justify;
+    width:40%;
+    margin:50px;
+    padding:10px 15px 30px 15px;
+    margin-left:10%
+  }
+  #Cap{
+    float:right;
+    width: 30%;
+    min-width: 150px;
+    border-radius:34em;
+    display:block;
+    position: relative;
+    top:-14em;
+  }
+  #Access{
+    text-align:center;
+    margin-top:1em;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+  }
+ a{
+   text-decoration: none;
+ }
+ #morning{
+   width:30%;
+   float:right;
+   margin-right: 2em;
+   padding:1em 1em 3em 1em;
+   border: .2em white solid;
+   background-color: #FFFFFF;
+ }
+.imgs
+{
+  height: 30px;
+  width: 30px;
+}
+#intro
+{
+  font-family: Courier New;
+}
+#hello
+{
+  padding-bottom: .3rem;
+}
+.rotateimg20 {
+  -webkit-transform:rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+#social {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#social a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+#social a:hover {
+  background-color: #000;
+}
+
+#facebook {
+  background: black;
+  color: white;
+}
+
+#instagram {
+  background: black;
+  color: white;
+}
+
+#tumblr {
+  background: black;
+  color: white;
+}
+
+#linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#twitter {
+  background: black;
+  color: white;
+}
+#github
+{
+  background: #000;
+  color: #FFFFFF;
+}
+#blogger
+{
+  background:black;
+  color:black;
+}
+

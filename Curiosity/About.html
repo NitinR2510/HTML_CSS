@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="eng-UK">
+    <head>
+        <title>
+            The Team
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body
+            {
+                padding: .5rem;
+                text-align: center;
+                background-color:black;
+                font-family:cursive;
+                color: orangered;
+            }
+            header
+            {  
+                padding-top: 1.5rem;
+                padding-bottom: .5rem;
+                font-family: Courier New;
+                text-align: center;
+                color: whitesmoke;
+                border-bottom: orangered double 1.3rem; 
+                border-radius: 200px;
+                font-size: xx-large;
+                
+            }
+            * 
+            {
+                box-sizing: border-box;
+            }          
+            .flip-box 
+            {
+                background-color: transparent;
+                width: 300px;
+                height: 200px;
+                border: 1px solid black;
+                perspective: 1000px;
+                }
+            .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            }
+            
+            .flip-box:hover .flip-box-inner 
+            {
+                transform: rotateY(180deg);
+            }
+            
+            .flip-box-front, .flip-box-back 
+            {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+            .flip-box-front 
+            {
+                background-color: black;
+                color: black;
+            }
+            .flip-box-back {
+                background-color: black;
+                color: white;
+                transform: rotateY(180deg);
+            }     
+            .links
+            {
+                height: 30px;
+                width: 30px;
+            }
+            .profile
+            {
+                border-radius: 1300px;
+                border: white double .5rem;
+                padding: .5rem;
+            }
+            #Manu, #Nitin, #shub
+            {
+                height: 300px;
+                width: 300px;
+            }
+            * 
+            {
+                box-sizing: border-box;
+            }
+            .row 
+            {
+                display: flex;
+            }
+            /* Create three equal columns that sits next to each other */
+            .column 
+            {
+                flex: 25%;
+                padding: .1rem;
+            }    
+            footer
+            {
+                text-align: center;
+                border-top: .5rem white double;
+                position: fixed;
+            }      
+            #git
+            {
+              height: 30px;
+              width: 30px;
+              border: .2rem yellow double;
+              border-radius: 120px;
+            } 
+        </style>
+    </head>
+    <body>
+        <header>
+        The Team And its Work
+        </header>
+        <br>
+        <br>
+        <div class="row">
+            <div class="column">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img id="Manu" class="profile" src="MMS.jpg" alt="Manu Mrinal Singh">
+              </div>
+              <div class="flip-box-back">
+                <h2>Manu Mrinal Singh</h2>
+                <h3>18BCB0103</h3>
+                <p> Creative Team
+                    <br>
+                    Developer
+                </p>
+               <a target="_blank" href="https://www.linkedin.com/in/manu-mrinal-singh-0b667a180/"><img class="links" src="lki.png" alt="Linkedin Profile Of Manu"></a>
+               <a target="_blank" href="https://www.instagram.com/manumrinal.singh/"><img class="links" src="ig.png" alt="instagram profile"></a> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img id = "Nitin" class="profile" src="Nitin.jpg" alt="Nitin" style="width:100%">
+              </div>
+              <div class="flip-box-back">
+                <h2>Nitin Ranjan</h2>
+                <h3>18BCE0272</h3>
+                <p> Creative Team
+                    <br>
+                    Developer
+                </p>
+               <a target="_blank" href="https://www.linkedin.com/in/nitin-ranjan-50b165190/"><img class="links" src="lki.png" alt="Linkedin Profile Of Nitin"></a>
+               <a target="_blank" href="https://www.instagram.com/manumrinal.singh/"><img class="links" src="ig.png" alt="instagram profile"></a> 
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="column">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img class="profile" src="kamli.jpg" alt="Kamlendra" style="width:100%">
+                </div>
+                <div class="flip-box-back">
+                  <h2>Kamlendra Pratap Singh</h2>
+                  <h3>18BIT0169</h3>
+                  <p> 
+                      Developer
+                      <br>
+                      Creative Team
+                  </p>
+                 <a target="_blank" href="https://www.linkedin.com/in/kamlendra-pratap-singh-372427192/"><img class="links" src="lki.png" alt="Linkedin Profile Of Kamlendra"></a>
+                 <a target="_blank" href="https://www.instagram.com/_.k.p.s._/"><img class="links" src="ig.png" alt="instagram profile"></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img id="shub" class="profile" src="shub.jpg" alt="Shubham" style="width:100%">
+                </div>
+                <div class="flip-box-back">
+                  <h2>Shubham Kumar</h2>
+                  <h3>18BCE0623</h3>
+                  <p> 
+                      Developer
+                      <br>
+                      Creative Team
+                  </p>
+                 
+                 <a target="_blank" href=""><img class="links" src="ig.png" alt="instagram profile of Shubham Kumar"></a> 
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr style="color: azure;">
+            <pre>
+                Project Curiosity 2020 
+                <br>
+                <a target="_blank" href="https://github.com/NitinR2510/Curiosity"><img title = "click for github link" id="git" src="github.png" alt="github link"></a>
+                <br>
+                <a href="Home.html">Main Page</a>
+                <br>
+                Made as a part of WinSem2019-20 MGT1002 Project Under Prof Dibyajyoti Ghosh
+            </pre>
+      
+    </body>
+</html>

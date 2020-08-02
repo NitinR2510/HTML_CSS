@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Curiosity: We are here to help
+        </title>
+        <style>
+            map
+            {
+                display: inline;
+            }
+            body
+            {
+                color: #F5F5F5;
+                background-color: #173f5f;
+                text-align: center;
+                padding-top: 0.2rem;
+            }
+            #logo
+            {
+                border: 1.3rem white double;
+                border-radius: 300px;
+                height: 3%;
+                padding: 0.3rem;
+            }
+            #Introduction
+            {
+                font-family: Candara;
+            }
+            .Button
+            {
+                background-color:whitesmoke;
+                border-radius: 25px;
+            }
+            footer
+            {
+                float: left;
+               color: whitesmoke;
+               font-family: Candara;
+            }
+            #question
+            {
+                height: 30px;
+                position: relative;
+                border: .2rem white solid;
+                border-radius: 130px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <header >     
+         <img id="logo" src="Curiosity.jpg" alt="Curiosity Logo" title="Click on image to interact" usemap="#Logos">
+        <map name="#Logos">
+            <area shape = "circle" coords="223,177,80" target="_blank" href="https://www.verywellmind.com/color-psychology-green-2795817">
+            <area shape = "circle" coords="195,290,60" target="_blank" href="https://graf1x.com/color-psychology-emotion-meaning-poster/">
+            <area shape = "rect" coords="156,326,400,450" target="_blank" href="http://127.0.0.1/wordpress/">
+            
+        </map>
+        </header>
+        <section id="Introduction">
+            <p>
+                Welcome to a World <strong> Owned by and Run by - <em>All of us</em></strong>
+            </p>
+        </section>
+        <section id="Connect">
+                <br>
+                <br>
+                <button class="Button" id="Login" onclick="window.location='http://www.example.com';">Login</button>
+                <button class="Button" id="Signup" onclick="window.location='http://www.example.com';">Signup</button>
+        </section>
+        <article title="Meet the Team" id="image">
+            <a target="_blank" href="About.html"><img id="question" src="question_mark.gif"></a>
+        </article>    
+        <footer>
+            <p>
+        To Go to website, click on Curiosity in Logo
+        </p> 
+        </footer>
+    </body>
+</html>
